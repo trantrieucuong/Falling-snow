@@ -1,0 +1,30 @@
+html {
+    background: #eee;
+}
+body {
+    font-family: Lato, Helvetica, sans-serif;
+}
+header {
+    color: #fff;
+    font-weight: bold;
+    background: url(bg-1.jpg) top left no-repeat;
+    background-size: cover;
+    height: 500px;
+    box-shadow: inset 0px -2px 2px 0px #000;
+    text-align: center;
+}
+header h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px #000;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+header h3 {
+    text-shadow: 2px 2px 2px #000;
+    font-size: 30px;
+    position: relative;
+    top: 52%;    
+    transform: translateY(-50%);
+}
